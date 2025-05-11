@@ -1,0 +1,10 @@
+# Core Requirements
+requests==2.31.0
+tqdm==4.66.1
+uuid==1.30
+
+# Windows-specific (included in standard library but listed for clarity)
+# pywin32==306  # (Alternative for advanced Windows features)
+
+# Development/Utility
+logging==0.4.9.6
